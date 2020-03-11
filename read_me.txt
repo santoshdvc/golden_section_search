@@ -1,0 +1,4 @@
+Golden section search is a method for finding an optimal point (minimum or maximum) of a function inside a specified interval(strictly for unimodal models.
+It is an efficient way to progressively reduce the interval locating the minimum. It uses the golden ratio which is said to be 1.618033.
+This algorithm uses this optimization method to search elements in an sorted array. The complexity of this algorithm varies between O(1) to O(log(n)).
+Practically, it depends on the position of the element in the sorted array I tried for large number of elements and sometimes got impressive results. It was able to find a element in an array of 2,00,000 elements within 4 iterations. While at times I got bad result as number of iterations jumped to 15. Still it was worth, as at times it performed better than any other search algorithms.
